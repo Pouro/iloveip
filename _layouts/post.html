@@ -4,6 +4,22 @@ layout: default
 
 <header>
   <h1>{{ page.title }}</h1>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{% include date.html %}</time>
 </header>
 
 {{ content }}
+
+<footer>
+  <nav>
+      {% if page.next_in_category != nil %} 
+          <a class="pagination-item older" href="{{page.next_in_category.url}}" title="{{page.next_in_category.title}}">До</a>
+      {% else %}
+          <span class="pagination-item older">До</span>
+      {% endif %}
+      {% if page.previous_in_category != nil %}
+          <a class="pagination-item newer" href="{{page.previous_in_category.url}}" title="{{page.previous_in_category.title}}">После</a>
+      {% else %}
+          <span class="pagination-item newer">После</span>
+      {% endif %}
+  </nav>
+</footer><!-- end of post footer -->

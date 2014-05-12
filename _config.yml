@@ -1,2 +1,5 @@
 # Setup
 title:              Я люблю ИП
+
+# Permalinks
+permalink:          /kb/:title
