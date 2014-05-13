@@ -3,3 +3,7 @@ title:              Я люблю ИП
 
 # Permalinks
 permalink:          /kb/:title
+
+#Sass
+sass:
+  sass_dir: _sass
