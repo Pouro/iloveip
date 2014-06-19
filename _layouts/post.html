@@ -4,7 +4,9 @@ layout: default
 
 <header>
   <h1>{{ page.title }}</h1>
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{% include date.html %}</time>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+    {% include date.html %}
+  </time>
 </header>
 
 {{ content }}

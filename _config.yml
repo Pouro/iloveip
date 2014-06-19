@@ -4,6 +4,20 @@ title:              Я люблю ИП
 # Permalinks
 permalink:          /kb/:title
 
-#Sass
+# Sass
 sass:
   sass_dir: _sass
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: "post"
+    values:
+      layout: "post"
+
+# Collections
+collections:
+  kb:
+    output: true
