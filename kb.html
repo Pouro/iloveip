@@ -10,3 +10,10 @@ permalink: /kb/
     <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
   {% endfor %}
 </ol>
+
+<ol>
+  {% assign kb_business = site.kb | where:"category","business" %}
+  {% for page in kb_business %}
+    <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ol>

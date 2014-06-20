@@ -2,7 +2,7 @@
 title:              Я люблю ИП
 
 # Permalinks
-permalink:          /kb/:title
+permalink:          pretty
 
 # Sass
 sass:
