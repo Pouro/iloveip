@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Как заполнить заявление о регистрации ИП
-permalink: /kb/application/
 category: start
-date: 01.07.2014
+order: 5
 ---

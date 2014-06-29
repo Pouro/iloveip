@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Виды деятельности и коды ОКВЭД
-permalink: /kb/kinds-of-activity/
 category: start
-date: 01.07.2014
+order: 3
 ---

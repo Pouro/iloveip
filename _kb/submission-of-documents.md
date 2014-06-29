@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Подача документов на регистрацию ИП
-permalink: /kb/submission-of-documents/
 category: start
-date: 01.07.2014
+order: 8
 ---

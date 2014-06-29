@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Первые шаги после регистрации ИП
-permalink: /kb/start/
 category: business
-date: 01.07.2014
+order: 1
 ---

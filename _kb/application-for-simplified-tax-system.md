@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Уведомление о переходе на УСН
-permalink: /kb/application-for-simplified-tax-system/
 category: start
-date: 01.07.2014
+order: 10
 ---

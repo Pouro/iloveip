@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Как выбрать банк
-permalink: /kb/bank/
 category: business
-date: 01.07.2014
+order: 2
 ---

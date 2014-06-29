@@ -8,6 +8,12 @@ permalink:          pretty
 sass:
   sass_dir: _sass
 
+# Collections
+collections:
+  kb:
+    output: true
+    permalink: /kb/:path/
+
 # Defaults
 defaults:
   -
@@ -16,8 +22,10 @@ defaults:
       type: "post"
     values:
       layout: "post"
-
-# Collections
-collections:
-  kb:
-    output: true
+  -
+    scope:
+      path: "" # empty string for all files
+      type: "kb"
+    values:
+      layout: "post"
+      date: "2014-08-01"

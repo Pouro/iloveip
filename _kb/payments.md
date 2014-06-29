@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Авансовые платежи по УСН
-permalink: /kb/payments/
 category: business
-date: 01.07.2014
+order: 5
 ---

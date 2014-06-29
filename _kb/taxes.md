@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Налог по УСН
-permalink: /kb/taxes/
 category: business
-date: 01.07.2014
+order: 6
 ---

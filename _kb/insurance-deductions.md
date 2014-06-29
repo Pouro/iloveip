@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Страховые взносы ИП
-permalink: /kb/insurance-deductions/
 category: business
-date: 01.07.2014
+order: 3
 ---

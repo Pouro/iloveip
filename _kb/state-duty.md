@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Госпошлина за регистрацию ИП
-permalink: /kb/state-duty/
 category: start
-date: 01.07.2014
+order: 6
 ---

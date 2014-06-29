@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Документы для регистрации ИП
-permalink: /kb/documents/
 category: start
-date: 01.07.2014
+order: 7
 ---

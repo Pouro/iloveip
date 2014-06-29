@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Налоговая декларация по УСН
-permalink: /kb/tax-return/
 category: business
-date: 01.07.2014
+order: 7
 ---

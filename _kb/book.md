@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Книга учёта доходов и расходов по УСН
-permalink: /kb/book/
 category: business
-date: 01.07.2014
+order: 4
 ---

@@ -5,14 +5,14 @@ permalink: /kb/
 ---
 
 <ol>
-  {% assign kb_start = site.kb | where:"category","start" %}
+  {% assign kb_start = site.kb | where:"category","start" | sort: 'order' %}
   {% for page in kb_start %}
     <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
   {% endfor %}
 </ol>
 
 <ol>
-  {% assign kb_business = site.kb | where:"category","business" %}
+  {% assign kb_business = site.kb | where:"category","business" | sort: 'order' %}
   {% for page in kb_business %}
     <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
   {% endfor %}

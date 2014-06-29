@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Упрощённая система налогообложения
-permalink: /kb/simplified-tax-system/
 category: start
-date: 01.07.2014
+order: 9
 ---

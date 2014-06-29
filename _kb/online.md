@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Регистрация ИП через интернет
-permalink: /kb/online/
 category: start
-date: 01.07.2014
+order: 4
 ---
