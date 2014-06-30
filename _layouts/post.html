@@ -4,14 +4,14 @@ layout: default
 
 <header>
   <h1>{{ page.title }}</h1>
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
-    {% include date.html %}
-  </time>
 </header>
 
 {{ content }}
 
 <footer>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+    {% include date.html %}
+  </time>
   <nav>
       {% if page.next_in_category != nil %} 
           <a class="pagination-item older" href="{{page.next_in_category.url}}" title="{{page.next_in_category.title}}">До</a>
