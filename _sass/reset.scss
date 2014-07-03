@@ -1,0 +1,23 @@
+/* Reset.scss based on http://meyerweb.com/eric/tools/css/reset/ v2.0 */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, address, cite, em, img, small, strong, sup, dl, dt, dd, ol, ul, li, fieldset, form, article, aside, figure, figcaption, footer, header, nav, section, time, mark {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
