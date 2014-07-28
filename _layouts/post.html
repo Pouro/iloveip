@@ -9,19 +9,27 @@ layout: default
 {{ content }}
 
 <footer>
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
-    {% include date.html %}
-  </time>
+  <p>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {% include date.html %}
+    </time>
+  </p>
   <nav>
-      {% if page.next_in_category != nil %} 
+    <ul>
+      <li>
+        {% if page.next_in_category != nil %} 
           <a class="pagination-item older" href="{{page.next_in_category.url}}" title="{{page.next_in_category.title}}">До</a>
-      {% else %}
+        {% else %}
           <span class="pagination-item older">До</span>
-      {% endif %}
-      {% if page.previous_in_category != nil %}
+        {% endif %}
+      </li>
+      <li>
+        {% if page.previous_in_category != nil %}
           <a class="pagination-item newer" href="{{page.previous_in_category.url}}" title="{{page.previous_in_category.title}}">После</a>
-      {% else %}
+        {% else %}
           <span class="pagination-item newer">После</span>
-      {% endif %}
+        {% endif %}
+      </li>
+    </ul>
   </nav>
 </footer><!-- end of post footer -->
